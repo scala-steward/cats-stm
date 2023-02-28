@@ -116,7 +116,7 @@
 </span><span class="keyword">import</span><span> </span><span class="identifier">io</span><span>.</span><span class="identifier">github</span><span>.</span><span class="identifier">timwspence</span><span>.</span><span class="identifier">cats</span><span>.</span><span class="identifier">stm</span><span>.</span><span class="type-name">STM</span><span>
 
 </span><span class="keyword">val</span><span> </span><span class="identifier">stm</span><span> = </span><span class="type-name">STM</span><span>.</span><span class="identifier">runtime</span><span>[</span><span class="type-name">IO</span><span>].</span><span class="identifier">unsafeRunSync</span><span>()
-</span><span class="comment">// stm: STM[IO] = io.github.timwspence.cats.stm.STM$Make$$anon$1$$anon$2@4da79ad
+</span><span class="comment">// stm: STM[IO] = io.github.timwspence.cats.stm.STM$Make$$anon$1$$anon$2@449cb9b1
 </span><span class="keyword">import</span><span> </span><span class="identifier">stm</span><span>.</span><span class="identifier">_</span><span>
 
 </span><span class="keyword">val</span><span> </span><span class="identifier">txn</span><span>: </span><span class="type-name">Txn</span><span>[</span><span class="type-name">Long</span><span>] = </span><span class="keyword">for</span><span> {
@@ -129,11 +129,11 @@
 //   txn = Bind(
 //     txn = Alloc(
 //       v = Delay(
-//         thunk = cats.effect.IO$$$Lambda$11085/249778190@346fae6f,
+//         thunk = cats.effect.IO$$$Lambda$11138/1605111016@40ef771a,
 //         event = cats.effect.tracing.TracingEvent$StackTrace
 //       )
 //     ),
-//     f = scala.Function1$$Lambda$11144/1022809213@4981fd6d
+//     f = scala.Function1$$Lambda$11197/542444244@46d1fb2e
 //   ),
 //   f = &lt;function1&gt;
 // )
