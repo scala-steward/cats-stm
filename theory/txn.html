@@ -86,9 +86,9 @@
         <li class="level2 active"><a href="#">Txn</a></li>
         <li class="level2"><a href="tvar.html">TVar</a></li>
         <li class="level1 nav-header">datatypes</li>
-        <li class="level2"><a href="../datatypes/tqueue.html">TQueue</a></li>
-        <li class="level2"><a href="../datatypes/tmvar.html">TMVar</a></li>
         <li class="level2"><a href="../datatypes/tsemaphore.html">TSemaphore</a></li>
+        <li class="level2"><a href="../datatypes/tmvar.html">TMVar</a></li>
+        <li class="level2"><a href="../datatypes/tqueue.html">TQueue</a></li>
         <li class="level1 nav-header">examples</li>
         <li class="level2"><a href="../examples/santa.html">The Santa Claus Problem</a></li>
       </ul>
@@ -150,10 +150,10 @@
 </span><span class="comment">// prog: IO[(Int, Int)] = FlatMap(
 //   ioe = FlatMap(
 //     ioe = Uncancelable(
-//       body = cats.effect.IO$$$Lambda$11399/787016721@6526f997,
+//       body = cats.effect.IO$$$Lambda$11364/1448827380@6526f997,
 //       event = cats.effect.tracing.TracingEvent$StackTrace
 //     ),
-//     f = io.github.timwspence.cats.stm.STM$Make$$anon$1$$anon$2$$Lambda$11400/1589684947@34171758,
+//     f = io.github.timwspence.cats.stm.STM$Make$$anon$1$$anon$2$$Lambda$11365/1962978068@34171758,
 //     event = cats.effect.tracing.TracingEvent$StackTrace
 //   ),
 //   f = &lt;function1&gt;,
@@ -189,10 +189,10 @@
 }
 </span><span class="comment">// txn: IO[Unit] = FlatMap(
 //   ioe = Uncancelable(
-//     body = cats.effect.IO$$$Lambda$11399/787016721@518fe2da,
+//     body = cats.effect.IO$$$Lambda$11364/1448827380@518fe2da,
 //     event = cats.effect.tracing.TracingEvent$StackTrace
 //   ),
-//   f = io.github.timwspence.cats.stm.STM$Make$$anon$1$$anon$2$$Lambda$11400/1589684947@5688b047,
+//   f = io.github.timwspence.cats.stm.STM$Make$$anon$1$$anon$2$$Lambda$11365/1962978068@5688b047,
 //   event = cats.effect.tracing.TracingEvent$StackTrace
 // )</span></code></pre>
         <p><code>txn.unsafeRunSync()</code> will block until the transaction succeeds (or throws an
